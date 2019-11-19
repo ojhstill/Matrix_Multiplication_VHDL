@@ -1,0 +1,102 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Note: TEST 1: Computation Successful for Coefficient 0!
+Time: 805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 0!
+Time: 805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 1!
+Time: 1205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 2!
+Time: 1605 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 3!
+Time: 2005 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 4!
+Time: 2405 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 5!
+Time: 2805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 6!
+Time: 3205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 7!
+Time: 3605 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 8!
+Time: 4005 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 9!
+Time: 4405 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 10!
+Time: 4805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 11!
+Time: 5205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 12!
+Time: 5605 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 13!
+Time: 6005 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 1: Computation Successful for Coefficient 14!
+Time: 6405 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 1: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 15 }, Expected Output { -23 }, Obversed Output { -24 }
+Time: 6805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 1: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 16 }, Expected Output { -29 }, Obversed Output { -30 }
+Time: 7205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 1: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 17 }, Expected Output { 33 }, Obversed Output { 32 }
+Time: 7605 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 1: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 18 }, Expected Output { 72 }, Obversed Output { 71 }
+Time: 8005 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 1: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 19 }, Expected Output { 1 }, Obversed Output { 0 }
+Time: 8405 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 2: Reset Successful!
+Time: 9205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Computation Successful for Coefficient 0!
+Time: 10005 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Computation Successful for Coefficient 1!
+Time: 10405 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Computation Successful for Coefficient 2!
+Time: 10805 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Computation Successful for Coefficient 3!
+Time: 11205 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Computation Successful for Coefficient 4!
+Time: 11605 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 3: Mid-State Reset Successful!
+Time: 12645 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 0!
+Time: 13445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 1!
+Time: 13845 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 2!
+Time: 14245 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 3!
+Time: 14645 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 4!
+Time: 15045 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 5!
+Time: 15445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 6!
+Time: 15845 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 7!
+Time: 16245 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 8!
+Time: 16645 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 9!
+Time: 17045 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 10!
+Time: 17445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 11!
+Time: 17845 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 12!
+Time: 18245 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 13!
+Time: 18645 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Computation Successful for Coefficient 14!
+Time: 19045 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 4: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 15 }, Expected Output { -23 }, Obversed Output { -24 }
+Time: 19445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 4: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 16 }, Expected Output { -29 }, Obversed Output { -30 }
+Time: 19845 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 4: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 17 }, Expected Output { 33 }, Obversed Output { 32 }
+Time: 20245 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 4: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 18 }, Expected Output { 72 }, Obversed Output { 71 }
+Time: 20645 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Error: TEST 4: *** MATRIX MULTIPLICATION FAILED *** => Coefficient { 19 }, Expected Output { 1 }, Obversed Output { 0 }
+Time: 21045 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: TEST 4: Freeze Behaviour Successful!
+Time: 21445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd
+Note: *** TEST COMPLETE ***
+Time: 21445 ns  Iteration: 0  Process: /Matrix_Multiplier_tb/VERIFY  File: E:/Uni_Year2_Labs/DDHDL/DDHDL_Assignment/DDHDL_FinalProject/DDHDL_FinalProject.srcs/sim_1/imports/new/Matrix_Multiplier_tb.vhd

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Matrix_Multiplier_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Matrix_Multiplier_tb" />
+            <top_module name="digeng" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20850000000fs"></ZoomStartTime>
+      <ZoomEndTime time="21251000001fs"></ZoomEndTime>
+      <Cursor1Time time="21245000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">GENERICS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/data_size" type="other">
+         <obj_property name="ElementShortName">data_size</obj_property>
+         <obj_property name="ObjectShortName">data_size</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/H" type="other">
+         <obj_property name="ElementShortName">H</obj_property>
+         <obj_property name="ObjectShortName">H</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/M" type="other">
+         <obj_property name="ElementShortName">M</obj_property>
+         <obj_property name="ObjectShortName">M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/N" type="other">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider13">
+      <obj_property name="label">INPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Multiplier_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Multiplier_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Multiplier_tb/nxt" type="logic">
+      <obj_property name="ElementShortName">nxt</obj_property>
+      <obj_property name="ObjectShortName">nxt</obj_property>
+   </wvobject>
+   <wvobject fp_name="group29" type="group">
+      <obj_property name="label">DEBOUNCERS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/deb_rst" type="logic">
+         <obj_property name="ElementShortName">deb_rst</obj_property>
+         <obj_property name="ObjectShortName">deb_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/deb_nxt" type="logic">
+         <obj_property name="ElementShortName">deb_nxt</obj_property>
+         <obj_property name="ObjectShortName">deb_nxt</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider15">
+      <obj_property name="label">MATRIX OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Matrix_Multiplier_tb/Matrix_Product" type="array">
+      <obj_property name="ElementShortName">Matrix_Product[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Matrix_Product[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider521">
+      <obj_property name="label">DATAPATH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group17" type="group">
+      <obj_property name="label">MEM ADDRESS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Addr_ROM_A" type="array">
+         <obj_property name="ElementShortName">Addr_ROM_A[3:0]</obj_property>
+         <obj_property name="ObjectShortName">Addr_ROM_A[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Addr_ROM_B" type="array">
+         <obj_property name="ElementShortName">Addr_ROM_B[3:0]</obj_property>
+         <obj_property name="ObjectShortName">Addr_ROM_B[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Addr_RAM" type="array">
+         <obj_property name="ElementShortName">Addr_RAM[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Addr_RAM[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group32" type="group">
+      <obj_property name="label">DATAPATH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/macc_en" type="logic">
+         <obj_property name="ElementShortName">macc_en</obj_property>
+         <obj_property name="ObjectShortName">macc_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/ram_en" type="logic">
+         <obj_property name="ElementShortName">ram_en</obj_property>
+         <obj_property name="ObjectShortName">ram_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/ROM_DataA" type="array">
+         <obj_property name="ElementShortName">ROM_DataA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM_DataA[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/ROM_DataB" type="array">
+         <obj_property name="ElementShortName">ROM_DataB[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM_DataB[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/MACC_out" type="array">
+         <obj_property name="ElementShortName">MACC_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">MACC_out[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst" type="array">
+         <obj_property name="ElementShortName">ram_inst[0:19][10:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_inst[0:19][10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[0]" type="array">
+            <obj_property name="ElementShortName">[0][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[1]" type="array">
+            <obj_property name="ElementShortName">[1][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[2]" type="array">
+            <obj_property name="ElementShortName">[2][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[3]" type="array">
+            <obj_property name="ElementShortName">[3][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[4]" type="array">
+            <obj_property name="ElementShortName">[4][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[5]" type="array">
+            <obj_property name="ElementShortName">[5][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[6]" type="array">
+            <obj_property name="ElementShortName">[6][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[7]" type="array">
+            <obj_property name="ElementShortName">[7][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[8]" type="array">
+            <obj_property name="ElementShortName">[8][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[9]" type="array">
+            <obj_property name="ElementShortName">[9][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[10]" type="array">
+            <obj_property name="ElementShortName">[10][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[11]" type="array">
+            <obj_property name="ElementShortName">[11][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[12]" type="array">
+            <obj_property name="ElementShortName">[12][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[13]" type="array">
+            <obj_property name="ElementShortName">[13][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[14]" type="array">
+            <obj_property name="ElementShortName">[14][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[15]" type="array">
+            <obj_property name="ElementShortName">[15][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[16]" type="array">
+            <obj_property name="ElementShortName">[16][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[17]" type="array">
+            <obj_property name="ElementShortName">[17][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[18]" type="array">
+            <obj_property name="ElementShortName">[18][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[19]" type="array">
+            <obj_property name="ElementShortName">[19][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[0]" type="array">
+            <obj_property name="ElementShortName">[0][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[1]" type="array">
+            <obj_property name="ElementShortName">[1][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[2]" type="array">
+            <obj_property name="ElementShortName">[2][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[3]" type="array">
+            <obj_property name="ElementShortName">[3][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[4]" type="array">
+            <obj_property name="ElementShortName">[4][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[5]" type="array">
+            <obj_property name="ElementShortName">[5][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[6]" type="array">
+            <obj_property name="ElementShortName">[6][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[7]" type="array">
+            <obj_property name="ElementShortName">[7][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[8]" type="array">
+            <obj_property name="ElementShortName">[8][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[9]" type="array">
+            <obj_property name="ElementShortName">[9][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[10]" type="array">
+            <obj_property name="ElementShortName">[10][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[11]" type="array">
+            <obj_property name="ElementShortName">[11][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[12]" type="array">
+            <obj_property name="ElementShortName">[12][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[13]" type="array">
+            <obj_property name="ElementShortName">[13][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[14]" type="array">
+            <obj_property name="ElementShortName">[14][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[15]" type="array">
+            <obj_property name="ElementShortName">[15][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[16]" type="array">
+            <obj_property name="ElementShortName">[16][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[17]" type="array">
+            <obj_property name="ElementShortName">[17][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[18]" type="array">
+            <obj_property name="ElementShortName">[18][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/ram_inst[19]" type="array">
+            <obj_property name="ElementShortName">[19][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][10:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider520">
+      <obj_property name="label">CONTROL LOGIC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">STATE TRANSITIONS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/state" type="other">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/next_state" type="other">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">CONTORL LOGIC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/M_en" type="logic">
+         <obj_property name="ElementShortName">M_en</obj_property>
+         <obj_property name="ObjectShortName">M_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/Count_M" type="array">
+         <obj_property name="ElementShortName">Count_M[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Count_M[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/N_en" type="logic">
+         <obj_property name="ElementShortName">N_en</obj_property>
+         <obj_property name="ObjectShortName">N_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/Count_N" type="array">
+         <obj_property name="ElementShortName">Count_N[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Count_N[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/H_en" type="logic">
+         <obj_property name="ElementShortName">H_en</obj_property>
+         <obj_property name="ObjectShortName">H_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/Count_H" type="array">
+         <obj_property name="ElementShortName">Count_H[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Count_H[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Control_Logic/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider537">
+      <obj_property name="label">DEBUG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group220" type="group">
+      <obj_property name="label">DEBUG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/MACC/MACC_out" type="array">
+         <obj_property name="ElementShortName">MACC_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">MACC_out[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/Data_in" type="array">
+         <obj_property name="ElementShortName">Data_in[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Data_in[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/RAM_out" type="array">
+         <obj_property name="ElementShortName">RAM_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM_out[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Matrix_Multiplier_tb/UUT/Datapath/Matrix_RAM/Addr" type="array">
+         <obj_property name="ElementShortName">Addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">Addr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Nov 29 08:50:33 2018
+# Process ID: 8252
+# Current directory: C:/temp/DDHDL_FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6568 C:\temp\DDHDL_FinalProject\DDHDL_FinalProject.xpr
+# Log file: C:/temp/DDHDL_FinalProject/vivado.log
+# Journal file: C:/temp/DDHDL_FinalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/temp/DDHDL_FinalProject/DDHDL_FinalProject.xpr
